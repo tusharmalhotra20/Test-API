@@ -23,4 +23,21 @@ A simple Test API application with a frontend that communicates with a backend u
    ```bash
    git clone https://github.com/tusharmalhotra20/Test-API.git
 
+## Install Dependencies:
 
+1. Install the required Node.js dependencies using npm: 
+    ```bash
+    npm install
+
+
+## Running the Application
+1. Run the backend server with Node.js:
+
+    ```bash 
+    Start the Server: node server.js
+
+2. Access the Application:
+    ```bash 
+    Open your web browser and go to: http://localhost:3000
+
+You should see the application with a button. Clicking the button will fetch and display a message from the backend.
