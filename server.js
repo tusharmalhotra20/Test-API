@@ -7,7 +7,7 @@ app.use(express.static('public'));
 
 // Handle the request from the frontend
 app.get('/api/message', (req, res) => {
-  res.json({ message: 'Hello from the backend! My name is Tushar Malhotra.' });
+  res.json({ message: 'Hello from the backend! Greetings to OneLogica.' });
 });
 
 // Start the server
